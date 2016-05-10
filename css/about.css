@@ -1,0 +1,86 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+#about .center {
+  	text-align: center;
+  	line-height: 200px;
+  	padding-top: 50px;
+  	margin-bottom: 50px;
+}
+
+#about {
+	height: 600px;
+  background: url(../images/bedroom.jpg) 100% 70% no-repeat;
+  background-size: cover;
+  color: #4A4A4A;
+}
+
+#about {
+  color: #fff;
+  text-align: center;
+}
+
+#about h1,
+#about h2 {
+  color: #4A4A4A;
+}
+
+#about h2 {
+	font-size: 52px;
+	font-weight: 400;
+}
+
+#about button {
+	font-size: 30px;
+  	background-color: #22a2da;
+  	color: #fff;
+}
+
+#about button:hover {
+  	background-color: #c52d2f;
+}
+
+.feature-wrap-about {
+  margin-bottom: 35px;
+  overflow: hidden;
+}
+
+.feature-wrap-about h2{
+  margin-top: 10px;
+}
+
+.feature-wrap-about .pull-left {
+  margin-right: 25px;
+}
+
+.feature-wrap-about i{
+  font-size: 36px;
+  height: 120px;
+  width: 120px;
+  margin: 3px;
+  border-radius: 100%;
+  line-height: 110px;
+  text-align:center;
+  background: #ffffff;
+  color: #22a2da;
+  border: 3px solid #ffffff;
+  box-shadow: inset 0 0 0 5px #f2f2f2;
+  -webkit-box-shadow: inset 0 0 0 5px #f2f2f2;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms;
+  float: left;
+  margin-right: 25px;
+}
+
+.feature-wrap-about i:hover {
+  background: #22a2da;
+  color: #fff;
+  box-shadow: inset 0 0 0 5px #22a2da;
+  -webkit-box-shadow: inset 0 0 0 5px #22a2da;
+  border: 3px solid #22a2da;
+}
+
